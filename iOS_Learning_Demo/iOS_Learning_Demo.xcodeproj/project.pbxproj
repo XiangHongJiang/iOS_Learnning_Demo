@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FCF8000021ED7BBC00ABEDDC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF8FFFD21ED7BBC00ABEDDC /* HomeViewController.m */; };
+		FCF8001321ED7DBE00ABEDDC /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF8000F21ED7DBE00ABEDDC /* Reachability.m */; };
+		FCF8001421ED7DBE00ABEDDC /* LaunchGuideImage_0.png in Resources */ = {isa = PBXBuildFile; fileRef = FCF8001221ED7DBE00ABEDDC /* LaunchGuideImage_0.png */; };
+		FCF8001721ED7FAC00ABEDDC /* TableViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF8001621ED7FAB00ABEDDC /* TableViewDemoViewController.m */; };
 		FCF8FED321ED6FA800ABEDDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF8FED221ED6FA800ABEDDC /* AppDelegate.m */; };
-		FCF8FED621ED6FA800ABEDDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF8FED521ED6FA800ABEDDC /* ViewController.m */; };
 		FCF8FED921ED6FA800ABEDDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCF8FED721ED6FA800ABEDDC /* Main.storyboard */; };
 		FCF8FEDB21ED6FAA00ABEDDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCF8FEDA21ED6FAA00ABEDDC /* Assets.xcassets */; };
 		FCF8FEDE21ED6FAA00ABEDDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCF8FEDC21ED6FAA00ABEDDC /* LaunchScreen.storyboard */; };
@@ -16,16 +19,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FCF8000921ED7DBE00ABEDDC /* App_Header_KeyMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App_Header_KeyMap.h; sourceTree = "<group>"; };
+		FCF8000A21ED7DBE00ABEDDC /* App_Header_Import.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App_Header_Import.h; sourceTree = "<group>"; };
+		FCF8000B21ED7DBE00ABEDDC /* App_Header_Enum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App_Header_Enum.h; sourceTree = "<group>"; };
+		FCF8000C21ED7DBE00ABEDDC /* App_Header_Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App_Header_Define.h; sourceTree = "<group>"; };
+		FCF8000D21ED7DBE00ABEDDC /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FCF8000F21ED7DBE00ABEDDC /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		FCF8001021ED7DBE00ABEDDC /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		FCF8001221ED7DBE00ABEDDC /* LaunchGuideImage_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchGuideImage_0.png; sourceTree = "<group>"; };
+		FCF8001521ED7FAB00ABEDDC /* TableViewDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewDemoViewController.h; sourceTree = "<group>"; };
+		FCF8001621ED7FAB00ABEDDC /* TableViewDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewDemoViewController.m; sourceTree = "<group>"; };
 		FCF8FECE21ED6FA800ABEDDC /* iOS_Learning_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Learning_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF8FED121ED6FA800ABEDDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FCF8FED221ED6FA800ABEDDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FCF8FED421ED6FA800ABEDDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FCF8FED521ED6FA800ABEDDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FCF8FED821ED6FA800ABEDDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FCF8FEDA21ED6FAA00ABEDDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCF8FEDD21ED6FAA00ABEDDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCF8FEDF21ED6FAA00ABEDDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCF8FEE021ED6FAA00ABEDDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCF8FFFD21ED7BBC00ABEDDC /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		FCF8FFFE21ED7BBC00ABEDDC /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +52,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FCF8000721ED7DBE00ABEDDC /* Utils（通用类） */ = {
+			isa = PBXGroup;
+			children = (
+				FCF8000821ED7DBE00ABEDDC /* Prefix */,
+			);
+			name = "Utils（通用类）";
+			path = "iOS_Learning_Demo/Project/Utils（通用类）";
+			sourceTree = SOURCE_ROOT;
+		};
+		FCF8000821ED7DBE00ABEDDC /* Prefix */ = {
+			isa = PBXGroup;
+			children = (
+				FCF8000921ED7DBE00ABEDDC /* App_Header_KeyMap.h */,
+				FCF8000A21ED7DBE00ABEDDC /* App_Header_Import.h */,
+				FCF8000B21ED7DBE00ABEDDC /* App_Header_Enum.h */,
+				FCF8000C21ED7DBE00ABEDDC /* App_Header_Define.h */,
+				FCF8000D21ED7DBE00ABEDDC /* PrefixHeader.pch */,
+			);
+			path = Prefix;
+			sourceTree = "<group>";
+		};
+		FCF8000E21ED7DBE00ABEDDC /* ThirdFramework（三方库） */ = {
+			isa = PBXGroup;
+			children = (
+				FCF8000F21ED7DBE00ABEDDC /* Reachability.m */,
+				FCF8001021ED7DBE00ABEDDC /* Reachability.h */,
+			);
+			name = "ThirdFramework（三方库）";
+			path = "iOS_Learning_Demo/Project/ThirdFramework（三方库）";
+			sourceTree = SOURCE_ROOT;
+		};
+		FCF8001121ED7DBE00ABEDDC /* Resources（资源文件） */ = {
+			isa = PBXGroup;
+			children = (
+				FCF8001221ED7DBE00ABEDDC /* LaunchGuideImage_0.png */,
+			);
+			name = "Resources（资源文件）";
+			path = "iOS_Learning_Demo/Project/Resources（资源文件）";
+			sourceTree = SOURCE_ROOT;
+		};
 		FCF8FEC521ED6FA800ABEDDC = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +111,7 @@
 		FCF8FED021ED6FA800ABEDDC /* iOS_Learning_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				FCF8FEEB21ED76CC00ABEDDC /* Project */,
 				FCF8FEEA21ED721000ABEDDC /* Applications */,
 			);
 			path = iOS_Learning_Demo;
@@ -68,8 +122,6 @@
 			children = (
 				FCF8FED121ED6FA800ABEDDC /* AppDelegate.h */,
 				FCF8FED221ED6FA800ABEDDC /* AppDelegate.m */,
-				FCF8FED421ED6FA800ABEDDC /* ViewController.h */,
-				FCF8FED521ED6FA800ABEDDC /* ViewController.m */,
 				FCF8FED721ED6FA800ABEDDC /* Main.storyboard */,
 				FCF8FEDA21ED6FAA00ABEDDC /* Assets.xcassets */,
 				FCF8FEDC21ED6FAA00ABEDDC /* LaunchScreen.storyboard */,
@@ -77,6 +129,60 @@
 				FCF8FEE021ED6FAA00ABEDDC /* main.m */,
 			);
 			name = Applications;
+			sourceTree = "<group>";
+		};
+		FCF8FEEB21ED76CC00ABEDDC /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				FCF8FF3221ED76CC00ABEDDC /* Classes（主项目类） */,
+				FCF8001121ED7DBE00ABEDDC /* Resources（资源文件） */,
+				FCF8000E21ED7DBE00ABEDDC /* ThirdFramework（三方库） */,
+				FCF8000721ED7DBE00ABEDDC /* Utils（通用类） */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		FCF8FF3221ED76CC00ABEDDC /* Classes（主项目类） */ = {
+			isa = PBXGroup;
+			children = (
+				FCF8FF4A21ED76CC00ABEDDC /* Home（首页） */,
+			);
+			path = "Classes（主项目类）";
+			sourceTree = "<group>";
+		};
+		FCF8FF4A21ED76CC00ABEDDC /* Home（首页） */ = {
+			isa = PBXGroup;
+			children = (
+				FCF8FFFC21ED7BBC00ABEDDC /* Controllers */,
+				FCF8FFFB21ED7BBC00ABEDDC /* Models */,
+				FCF8FFFF21ED7BBC00ABEDDC /* Views */,
+			);
+			path = "Home（首页）";
+			sourceTree = "<group>";
+		};
+		FCF8FFFB21ED7BBC00ABEDDC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FCF8FFFC21ED7BBC00ABEDDC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FCF8FFFE21ED7BBC00ABEDDC /* HomeViewController.h */,
+				FCF8FFFD21ED7BBC00ABEDDC /* HomeViewController.m */,
+				FCF8001521ED7FAB00ABEDDC /* TableViewDemoViewController.h */,
+				FCF8001621ED7FAB00ABEDDC /* TableViewDemoViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FCF8FFFF21ED7BBC00ABEDDC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF8001421ED7DBE00ABEDDC /* LaunchGuideImage_0.png in Resources */,
 				FCF8FEDE21ED6FAA00ABEDDC /* LaunchScreen.storyboard in Resources */,
 				FCF8FEDB21ED6FAA00ABEDDC /* Assets.xcassets in Resources */,
 				FCF8FED921ED6FA800ABEDDC /* Main.storyboard in Resources */,
@@ -149,9 +256,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCF8FED621ED6FA800ABEDDC /* ViewController.m in Sources */,
+				FCF8001721ED7FAC00ABEDDC /* TableViewDemoViewController.m in Sources */,
 				FCF8FEE121ED6FAA00ABEDDC /* main.m in Sources */,
 				FCF8FED321ED6FA800ABEDDC /* AppDelegate.m in Sources */,
+				FCF8001321ED7DBE00ABEDDC /* Reachability.m in Sources */,
+				FCF8000021ED7BBC00ABEDDC /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,10 +403,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOS_Learning_Demo/Project/Utils（通用类）/Prefix/PrefixHeader.pch";
 				INFOPLIST_FILE = iOS_Learning_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOS_Learning_Demo/Project/Classes（主项目类）/Test(测试)/Index/Views/OCR/libexidcard",
+					"$(PROJECT_DIR)/iOS_Learning_Demo/Project/Classes（主项目类）/Test(测试)/Index/Views/OCR/bank_io/exbankcardcore",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MrYeL.iOS-Learning-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -310,10 +425,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOS_Learning_Demo/Project/Utils（通用类）/Prefix/PrefixHeader.pch";
 				INFOPLIST_FILE = iOS_Learning_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOS_Learning_Demo/Project/Classes（主项目类）/Test(测试)/Index/Views/OCR/libexidcard",
+					"$(PROJECT_DIR)/iOS_Learning_Demo/Project/Classes（主项目类）/Test(测试)/Index/Views/OCR/bank_io/exbankcardcore",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MrYeL.iOS-Learning-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -11,6 +11,9 @@
 		FCF8001321ED7DBE00ABEDDC /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF8000F21ED7DBE00ABEDDC /* Reachability.m */; };
 		FCF8001421ED7DBE00ABEDDC /* LaunchGuideImage_0.png in Resources */ = {isa = PBXBuildFile; fileRef = FCF8001221ED7DBE00ABEDDC /* LaunchGuideImage_0.png */; };
 		FCF8001721ED7FAC00ABEDDC /* TableViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF8001621ED7FAB00ABEDDC /* TableViewDemoViewController.m */; };
+		FCF8002021EDE2BA00ABEDDC /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF8001F21EDE2BA00ABEDDC /* Person.m */; };
+		FCF8002921EDE32800ABEDDC /* PersonInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF8002721EDE32800ABEDDC /* PersonInfoTableViewCell.m */; };
+		FCF8002A21EDE32800ABEDDC /* PersonInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCF8002821EDE32800ABEDDC /* PersonInfoTableViewCell.xib */; };
 		FCF8FED321ED6FA800ABEDDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF8FED221ED6FA800ABEDDC /* AppDelegate.m */; };
 		FCF8FED921ED6FA800ABEDDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCF8FED721ED6FA800ABEDDC /* Main.storyboard */; };
 		FCF8FEDB21ED6FAA00ABEDDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCF8FEDA21ED6FAA00ABEDDC /* Assets.xcassets */; };
@@ -29,6 +32,11 @@
 		FCF8001221ED7DBE00ABEDDC /* LaunchGuideImage_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchGuideImage_0.png; sourceTree = "<group>"; };
 		FCF8001521ED7FAB00ABEDDC /* TableViewDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewDemoViewController.h; sourceTree = "<group>"; };
 		FCF8001621ED7FAB00ABEDDC /* TableViewDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewDemoViewController.m; sourceTree = "<group>"; };
+		FCF8001E21EDE2BA00ABEDDC /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		FCF8001F21EDE2BA00ABEDDC /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		FCF8002621EDE32800ABEDDC /* PersonInfoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonInfoTableViewCell.h; sourceTree = "<group>"; };
+		FCF8002721EDE32800ABEDDC /* PersonInfoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonInfoTableViewCell.m; sourceTree = "<group>"; };
+		FCF8002821EDE32800ABEDDC /* PersonInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonInfoTableViewCell.xib; sourceTree = "<group>"; };
 		FCF8FECE21ED6FA800ABEDDC /* iOS_Learning_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Learning_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF8FED121ED6FA800ABEDDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FCF8FED221ED6FA800ABEDDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -163,6 +171,8 @@
 		FCF8FFFB21ED7BBC00ABEDDC /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FCF8001E21EDE2BA00ABEDDC /* Person.h */,
+				FCF8001F21EDE2BA00ABEDDC /* Person.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -181,6 +191,9 @@
 		FCF8FFFF21ED7BBC00ABEDDC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FCF8002621EDE32800ABEDDC /* PersonInfoTableViewCell.h */,
+				FCF8002721EDE32800ABEDDC /* PersonInfoTableViewCell.m */,
+				FCF8002821EDE32800ABEDDC /* PersonInfoTableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -242,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF8002A21EDE32800ABEDDC /* PersonInfoTableViewCell.xib in Resources */,
 				FCF8001421ED7DBE00ABEDDC /* LaunchGuideImage_0.png in Resources */,
 				FCF8FEDE21ED6FAA00ABEDDC /* LaunchScreen.storyboard in Resources */,
 				FCF8FEDB21ED6FAA00ABEDDC /* Assets.xcassets in Resources */,
@@ -258,9 +272,11 @@
 			files = (
 				FCF8001721ED7FAC00ABEDDC /* TableViewDemoViewController.m in Sources */,
 				FCF8FEE121ED6FAA00ABEDDC /* main.m in Sources */,
+				FCF8002021EDE2BA00ABEDDC /* Person.m in Sources */,
 				FCF8FED321ED6FA800ABEDDC /* AppDelegate.m in Sources */,
 				FCF8001321ED7DBE00ABEDDC /* Reachability.m in Sources */,
 				FCF8000021ED7BBC00ABEDDC /* HomeViewController.m in Sources */,
+				FCF8002921EDE32800ABEDDC /* PersonInfoTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,9 @@
 
 #import "TableViewDemoViewController.h"
 
+#import "Person.h"
+#import "PersonInfoTableViewCell.h"
+
 @interface TableViewDemoViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 /** DataList*/
@@ -41,6 +44,12 @@
     /** 添加*/
     [self.view addSubview:self.tableView];
     
+    
+    /** 注册Cell*/
+    [self.tableView registerNib:[UINib nibWithNibName:@"PersonInfoTableViewCell" bundle:nil] forCellReuseIdentifier:@"PersonInfoTableViewCell"];
+    
+    
+    
     /** iOS 11*/
     if (@available(iOS 11.0, *)) {
         self.tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
@@ -48,7 +57,24 @@
 }
 #pragma mark - NetWork
 - (void)transData {
-    self.dataArray = @[ @"数据0", @"数据1", @"另一个"];
+    
+    Person *p0 = [[Person alloc] init];
+    p0.name = @"张三";
+    p0.phoneNum = @"134111123...";
+    p0.age = 10;
+    
+    Person *p1 = [[Person alloc] init];
+    p1.name = @"li三";
+    p1.phoneNum = @"1341323...";
+    p1.age = 13;
+    
+    Person *p2 = [[Person alloc] init];
+    p2.name = @"waang";
+    p2.phoneNum = @"132333...";
+    p2.age = 15;
+    
+    self.dataArray = @[p0, p1, p2];
+    
 }
 #pragma mark - TableView DataSource：代理
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -63,21 +89,13 @@
  获取cell
  */
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    /** 获取Id*/
-    static NSString *cellId = @"PersonInfoCell";
-    /** 获取Cell*/
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellId];
     
-    if (cell == nil) {
-        
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellId];
-    }
-    /** 配置Cell*/
-//    cell.selectionStyle = UITableViewCellSelectionStyleNone;//去除下划线，默认有单下划线
-
+    /** 获取Id*/
+    static NSString *cellId = @"PersonInfoTableViewCell";
+    /** 获取Cell*/
+    PersonInfoTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellId];
     /** 赋值Cell*/
-    cell.textLabel.text = self.dataArray[indexPath.row];
-
+    cell.dataInfo = self.dataArray[indexPath.row];
 
     return cell;
 }

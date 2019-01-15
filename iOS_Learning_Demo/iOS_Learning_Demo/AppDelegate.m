@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "HomeViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +18,24 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    /** 加载窗口*/
+    [self launchWindows];
+    
+    
     return YES;
+}
+/** 加载窗口*/
+- (void)launchWindows {
+    
+    /** 创建Window*/
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    /** 设置Window*/
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    /** 设置根视图：需要显示在窗口上的视图*/
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[HomeViewController new]];
+    
 }
 
 

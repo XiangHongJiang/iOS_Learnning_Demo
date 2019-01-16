@@ -8,6 +8,8 @@
 
 #import "HomeViewController.h"
 
+#import "Masonry.h"
+
 #import "TableViewDemoViewController.h"
 
 @interface HomeViewController ()
@@ -21,16 +23,23 @@
     
     self.navigationItem.title = @"首页";
     
-    UILabel *tipLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 200, 20)];
+    UILabel *tipLabel = [[UILabel alloc] init];
     tipLabel.text = @"点击一下去使用";
     tipLabel.textAlignment = NSTextAlignmentCenter;
-    tipLabel.center = self.view.center;
-    
+    tipLabel.backgroundColor = [UIColor cyanColor];
     [self.view addSubview:tipLabel];
+
     
-    UILabel *label = [UILabel alloc];
-    label = [label initWithFrame:CGRectZero];
-    label.text = @"hello";
+    [tipLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+       
+        make.left.mas_equalTo(20);
+        make.right.mas_equalTo(self.view.mas_right).offset(-20);
+        make.height.mas_equalTo(40);
+        make.centerX.centerY.mas_equalTo(self.view);
+    }];
+    
+    
+   
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {

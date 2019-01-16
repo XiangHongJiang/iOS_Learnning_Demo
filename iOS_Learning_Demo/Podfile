@@ -1,0 +1,12 @@
+platform:ios,8.0
+
+target 'iOS_Learning_Demo' do
+    
+pod 'AFNetworking'
+pod 'Masonry'
+pod 'YYKit'
+pod 'DZNEmptyDataSet'
+pod 'MJRefresh'
+pod 'MBProgressHUD'
+    
+end

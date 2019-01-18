@@ -38,8 +38,7 @@
         make.centerX.centerY.mas_equalTo(self.view);
     }];
     
-    
-   
+
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {

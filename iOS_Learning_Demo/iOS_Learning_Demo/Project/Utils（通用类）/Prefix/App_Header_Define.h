@@ -10,11 +10,9 @@
 #define App_Header_Define_h
 
 // 是否是iPhoneX
-#define iPhoneX                                                                \
-([UIScreen instancesRespondToSelector:@selector(currentMode)]                \
-? CGSizeEqualToSize(CGSizeMake(1125, 2436),                              \
-[[UIScreen mainScreen] currentMode].size)           \
-: NO)
+#define iPhoneX \
+(([UIScreen mainScreen].bounds.size.height / [UIScreen mainScreen].bounds.size.width) > 1.78 ? YES : NO)
+
 // 状态栏高度
 #define STATUS_BAR_HEIGHT (iPhoneX ? 44.f : 20.f)
 // 导航栏高度

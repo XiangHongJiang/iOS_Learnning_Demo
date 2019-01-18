@@ -12,6 +12,12 @@
 
 #import "TableViewDemoViewController.h"
 
+#import "LoginViewController.h"
+
+#import "ModuleChoiceViewController.h"
+
+#import "SurfaceListViewController.h"
+
 @interface HomeViewController ()
 
 @end
@@ -44,7 +50,9 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     
-    [self.navigationController pushViewController:[TableViewDemoViewController new] animated:YES];
+//    [self.navigationController pushViewController:[TableViewDemoViewController new] animated:YES];
+    
+    [self.navigationController pushViewController:[SurfaceListViewController new] animated:YES];
     
 }
 

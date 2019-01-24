@@ -58,6 +58,7 @@
     // UIbutton：声明、赋值样式
     UIButton *packagebutton = [UIButton buttonWithType:UIButtonTypeCustom];
     
+    
     // 将button 添加到view中
     [self.view addSubview:packagebutton];
     

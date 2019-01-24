@@ -36,7 +36,7 @@
      */
     NSTextAttachment *attchImage = [[NSTextAttachment alloc] init];
     // 表情图片
-    attchImage.image = [UIImage imageNamed:@"diamond_1_50"];
+    attchImage.image = [UIImage imageNamed:@""];
     // 设置图片大小
     attchImage.bounds = label.bounds;
     NSAttributedString *stringImage = [NSAttributedString attributedStringWithAttachment:attchImage];

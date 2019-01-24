@@ -12,7 +12,6 @@
 		173D83BF21F0CC820012668B /* SurfaceListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 173D83BD21F0CC820012668B /* SurfaceListTableViewCell.xib */; };
 		1791207B21F0547A000473BF /* SurfaceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1791207A21F0547A000473BF /* SurfaceListViewController.m */; };
 		17EB439C21EF781A00CEFD6D /* ModuleChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EB439B21EF781A00CEFD6D /* ModuleChoiceViewController.m */; };
-		17EB439F21EF79A100CEFD6D /* diamond_1_50.png in Resources */ = {isa = PBXBuildFile; fileRef = 17EB439E21EF79A100CEFD6D /* diamond_1_50.png */; };
 		17F5D92921F15E4500C3B5CB /* OrderInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F5D92821F15E4500C3B5CB /* OrderInfo.m */; };
 		F7BD05EA9AF9305BD81FBAEE /* libPods-iOS_Learning_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 351FFCE1559A2389871402A5 /* libPods-iOS_Learning_Demo.a */; };
 		FCF8000021ED7BBC00ABEDDC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF8FFFD21ED7BBC00ABEDDC /* HomeViewController.m */; };
@@ -39,7 +38,6 @@
 		1791207A21F0547A000473BF /* SurfaceListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SurfaceListViewController.m; sourceTree = "<group>"; };
 		17EB439A21EF781A00CEFD6D /* ModuleChoiceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleChoiceViewController.h; sourceTree = "<group>"; };
 		17EB439B21EF781A00CEFD6D /* ModuleChoiceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleChoiceViewController.m; sourceTree = "<group>"; };
-		17EB439E21EF79A100CEFD6D /* diamond_1_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = diamond_1_50.png; path = "../../../../../../../../IdeaProjects/git/martech/martech-web/src/main/webapp/resources/image/diamond/diamond_1_50.png"; sourceTree = "<group>"; };
 		17F5D92721F15E4500C3B5CB /* OrderInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderInfo.h; sourceTree = "<group>"; };
 		17F5D92821F15E4500C3B5CB /* OrderInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderInfo.m; sourceTree = "<group>"; };
 		351FFCE1559A2389871402A5 /* libPods-iOS_Learning_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS_Learning_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,7 +133,6 @@
 		17EB439D21EF796700CEFD6D /* login */ = {
 			isa = PBXGroup;
 			children = (
-				17EB439E21EF79A100CEFD6D /* diamond_1_50.png */,
 			);
 			path = login;
 			sourceTree = "<group>";
@@ -368,7 +365,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCF8002A21EDE32800ABEDDC /* PersonInfoTableViewCell.xib in Resources */,
-				17EB439F21EF79A100CEFD6D /* diamond_1_50.png in Resources */,
 				FCF8001421ED7DBE00ABEDDC /* LaunchGuideImage_0.png in Resources */,
 				FCF8FEDE21ED6FAA00ABEDDC /* LaunchScreen.storyboard in Resources */,
 				FCF8FEDB21ED6FAA00ABEDDC /* Assets.xcassets in Resources */,
